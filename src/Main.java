@@ -9,7 +9,7 @@ public class Main {
         System.out.println(comissionado1.CalculaSalario((0.5)));
         System.out.println("--------------------------------" );
 
-        CargoSalarioFixo fixo1 = new CargoSalarioFixo("Zé", "21/02/1990","090.555.784-91",154,2_000);
+        CargoSalarioFixo fixo1 = new CargoSalarioFixo("Luiza", "21/02/1990","090.555.784-91",154,2_000);
 
         System.out.println(fixo1);
         System.out.print("Salário final: ");

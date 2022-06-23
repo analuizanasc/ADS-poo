@@ -5,8 +5,6 @@ public class Funcionarios {
     private String nascimento;
     private String cpf;
     private int matricula;
-
-
     public Funcionarios(String nome, String nascimento, String cpf, int matricula) {
         this.nome = nome;
         this.matricula = matricula;
@@ -31,12 +29,11 @@ public class Funcionarios {
     }
 
     public String toString() {
-        return "Funcionário{" +
-                "Nome:" + nome +'\'' +
-                ", dataNascimento:'" + nascimento + '\'' +
-                ", cpf:'" + cpf + '\'' +
-                ", matricula:" + matricula +
-                '}';
+        return "Funcionário" + "\n" +
+                "Nome: " + getNome() + "\n" +
+                "Data de nascimento: " + getNascimento() + "\n" +
+                "CPF: " + getCpf() + "\n" +
+                "Matricula: " + getMatricula() + "\n";
     }
 
 }

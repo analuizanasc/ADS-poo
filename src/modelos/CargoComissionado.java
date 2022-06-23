@@ -25,7 +25,7 @@ public class CargoComissionado extends Funcionarios implements CalculadoraSalari
 
     public String toString() {
         return "--------------------------------" + "\n" +
-                "Cargo Comissionado \n" +
+                "Cargo: Comissionado \n" +
                 "Nome: " + getNome() + "\n" +
                 "Data de Nascimento: " + getNascimento() + "\n" +
                 "CPF: " + getCpf() + "\n" +
